@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Div soup page</title>
+</head>
+
+<body>
+ <!-- ovo je semanticki napisan kod koji ce jos sadrazavat i komentare  -->
+ <!-- ovo je Header dio koji sadrzi i  logo, naziv i navigaciju  -->
+ <header>
+  <img src="html logo.png" alt="html logo" width="150px">
+  <h1>Ovo je Semantic html stranica</h1>
+  <nav>
+   <a href="">Home</a>
+   <a href="#prvi">About Semantic</a>
+   <a href="#drugi">About SEO</a>
+   <a href="./index.html">Div soup</a>
+  </nav>
+ </header>
+
+ <!-- Ovo je main dio stranice koji sadrzi članke i forme -->
+
+ <main>
+  <!-- ode sam koristio section ali mislio sam mozda i article , jos uvijek neznam sta je bolje  -->
+
+  <section id="prvi">
+   <h3>What is Semantic Html</h3>
+   <p>Semantically correct HTML helps search engines, screen readers, and other user devices determine the significance
+    and context of web content. In order to effectively represent the meaning of content, appropriate HTML elements are
+    chosen according to inherent meaning, rather than how they appears visually on a rendered web page.
+   </p>
+   <img src="div_vs_semantic.jpeg" alt="div vs semantic " width="400px">
+  </section>
+
+  <section id="drugi">
+   <h3>What is SEO?</h3>
+   <p>
+    In today world, we turn to Google to find the answers to pretty much all of our questions. So it is no wonder that
+    business and website owners everywhere do what they can to make their information findable on Google. Which is
+    exactly what SEO is—the practice of optimizing your content to appear higher within search results.
+   </p>
+   <img src="./SEO-PNG-Clipart.png" alt="Seo picture" width="200px">
+  </section>
+
+  <!-- Ovaj dio sadrzi forme i labele -->
+  <h4>Contact us:</h4>
+  <form>
+   <div id="first_name">
+    <label for="ime">Enter First Name :</label>
+    <input type="text" name="first_name" id="ime" placeholder="Enter First Name...." required>
+   </div>
+
+   <div id="last_name">
+    <label for="prezime">Enter Last Name :</label>
+    <input type="text" name="last_name" id="prezime" placeholder="Enter Last Name ..." required>
+   </div>
+
+   <div id="email_adress">
+    <label for="email">Enter email :</label>
+    <input type="email" name="email_adress" id="email" placeholder="Enter Email...">
+   </div>
+
+   <div id="comments">
+    <label for="comment">Leave a comment</label>
+    <textarea name="komentar" id="comment" cols="30" rows="10"></textarea>
+   </div>
+
+   <button type="submit">Submit</button>
+   <button type="reset">Reset</button>
+
+   <div id="rules_checkbox">
+    <input type="checkbox" name="ok" id="chekcbox" required>
+    <label for="checkbox">Accept all terms and services</label>
+   </div>
+  </form>
+ </main>
+
+ <!-- ovdje dolazi footer element -->
+
+ <footer>
+  <span>Informacije o vlasniku stranice:</span>
+  <address>
+   <a href="mailto:borissimic99@yahoo.com">Mail me</a>
+   <a href="tel:+11245678987">Send SmS</a>
+   <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+   <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github</a>
+  </address>
+  <small>All rights reserved &copy; by: Boris Simic </small>
+ </footer>
+
+</html>
