@@ -1,44 +1,59 @@
-/* ovo su  osnonvni stilovi za body */
 body {
   background-color: rgb(46, 153, 176, 0.5);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
 }
-/* ovo je stil samo za h1 i ima vrijednost 001 */
+
 h1 {
-  color: rgb(255, 0, 255);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(220, 20, 210);
+  font-weight: bold;
+  font-family: fantasy;
+  margin-bottom: 0;
 }
-/* ovo je stil za p element */
+
+h3 {
+  color: rgba(140, 0, 255, 0.637);
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 p {
   font-family: cursive;
+  font-size: 0.7em;
+  padding: 0 0 0 35px;
+  width: 600px;
 }
+
 nav {
-  background-color: #ff2e4c;
+  background-color: rgba(61, 165, 42, 0.5);
+  font-size: 30px;
+  width: 1100px;
+  margin: 0 0 30px 0;
 }
-/* ovo je stil koji kaze : za svaki a elementa koji se nalazi unutar nav elementa . vrijednost mu je 002  */
+
 nav a {
   text-decoration: none;
-  color: rgb(98, 0, 255);
-  margin-left: 5px;
+  margin: 0 30px;
 }
 
-/* pomocu # biramo element po id-u . vrijednost je 100*/
-#first_section_heading {
-  font-weight: bolder;
+.main_articles {
+  background-color: #2e99b0;
+  border: 8px dotted rgba(225, 0, 255, 0.431);
+  border-radius: 40px;
+  width: 1100px;
 }
 
-/* pomocu . biramo element po klasi. vrijednost je 010  */
-.second_paragraph {
-  text-decoration: underline;
+#drugi {
+  border-style: hidden dotted dotted;
+  margin: -24px 0;
 }
 
-/* dolje je navedena klasa underline koja podcrtaje text
-ovako mozemo napravit klasu u css-u i onda je samo primjenimo u html-u dodajuci tu klasu odredjenom elementu .
-Elementi mogu imati vise klasa koje razdvajamo razmakom */
-.underline {
-  text-decoration: underline;
+#treci {
+  border-style: hidden dotted dotted;
 }
 
-.blue-text {
-  color: blue;
+footer {
+  background-color: #426a85;
+  border-top: 5px solid red;
 }

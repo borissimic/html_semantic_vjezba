@@ -14,7 +14,7 @@
  <!-- ovo je Header dio koji sadrzi i  logo, naziv i navigaciju  -->
  <header>
   <div class="header_logos">
-   <img src="/images/html_logo.png" alt="html logo" width="150">
+   <img src="./images/html_logo_png.png" alt="html logo" width="150">
    <img src="./images/CSS-Logo.jpg" alt="css logo" width="200" height="150">
   </div>
   <h1>Ovo je Semantic html stranica</h1>
@@ -23,7 +23,7 @@
    <a href="#prvi">About Semantic</a>
    <a href="#drugi">About SEO</a>
    <a href="./index.html">Div soup</a>
-   <a href="#article_about_mdn">What is MDN?</a>
+   <a href="#treci">What is MDN?</a>
   </nav>
  </header>
 
@@ -32,25 +32,25 @@
  <main>
 
   <article id="prvi" class="main_articles">
-   <h3 class="first_section_heading underline blue-text">What is Semantic Html</h3>
+   <h3>What is Semantic Html</h3>
    <p>Semantically correct HTML helps search engines, screen readers, and other user devices determine the significance
     and context of web content. In order to effectively represent the meaning of content, appropriate HTML elements are
     chosen according to inherent meaning, rather than how they appears visually on a rendered web page.
    </p>
-   <img src="./images/div_vs_semantic.jpeg" alt="div vs semantic " width="400">
+   <img src="./images/div-soup-vs-semantic-html.png" alt="div vs semantic " width="400">
   </article>
 
-  <article class="main_articles">
+  <article id="drugi" class="main_articles">
    <h3>What is SEO?</h3>
    <p class="second_paragraph">
     In today world, we turn to Google to find the answers to pretty much all of our questions. So it is no wonder that
     business and website owners everywhere do what they can to make their information findable on Google. Which is
     exactly what SEO is—the practice of optimizing your content to appear higher within search results.
    </p>
-   <img src="/images/SEO-PNG-Clipart.png" alt="Seo picture" width="200px">
+   <img src="/images/SEO-PNG-Clipart.png" alt="Seo picture" width="200">
   </article>
 
-  <article class="main_articles">
+  <article id="treci" class="main_articles">
    <h3>What is MDN?</h3>
    <section>
     <h4>About MDN</h4>
@@ -60,6 +60,7 @@
      about 8,000 people using it at any given moment. MDN relies on contributors to help maintain its ever-expanding and
      up to date documentation.
     </p>
+    <img src="./images/mdn-logo-png-transparent.png" alt="mdn logo" width="200">
    </section>
   </article>
 
@@ -87,8 +88,8 @@
      <textarea name="komentar" id="comment" cols="30" rows="10"></textarea>
     </div>
 
-    <button type="submit">Submit</button>
-    <button type="reset">Reset</button>
+    <button type="submit" class="button_submit">Submit</button>
+    <button type="reset" class="button">Reset</button>
 
     <div class="checkbox_contanier">
      <input type="checkbox" name="ok" id="checkbox" required>
