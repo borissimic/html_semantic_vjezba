@@ -1,0 +1,44 @@
+/* ovo su  osnonvni stilovi za body */
+body {
+  background-color: rgb(46, 153, 176, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ovo je stil samo za h1 i ima vrijednost 001 */
+h1 {
+  color: rgb(255, 0, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* ovo je stil za p element */
+p {
+  font-family: cursive;
+}
+nav {
+  background-color: #ff2e4c;
+}
+/* ovo je stil koji kaze : za svaki a elementa koji se nalazi unutar nav elementa . vrijednost mu je 002  */
+nav a {
+  text-decoration: none;
+  color: rgb(98, 0, 255);
+  margin-left: 5px;
+}
+
+/* pomocu # biramo element po id-u . vrijednost je 100*/
+#first_section_heading {
+  font-weight: bolder;
+}
+
+/* pomocu . biramo element po klasi. vrijednost je 010  */
+.second_paragraph {
+  text-decoration: underline;
+}
+
+/* dolje je navedena klasa underline koja podcrtaje text
+ovako mozemo napravit klasu u css-u i onda je samo primjenimo u html-u dodajuci tu klasu odredjenom elementu .
+Elementi mogu imati vise klasa koje razdvajamo razmakom */
+.underline {
+  text-decoration: underline;
+}
+
+.blue-text {
+  color: blue;
+}
